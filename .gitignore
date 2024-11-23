@@ -28,3 +28,6 @@ __pycache__/
 Thumbs.db        # For Windows
 
 *.DS_Store
+
+*data/
+Data/
