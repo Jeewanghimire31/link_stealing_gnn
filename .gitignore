@@ -1,0 +1,30 @@
+# Ignore environment files
+env.yml         # Conda environment export file
+*.env           # Any .env file (typically used for environment variables)
+
+# Ignore virtual environment directories
+venv/            # Virtual environment (for virtualenv/venv)
+.venv/
+env/
+.env/
+
+# Ignore Conda environments
+conda_envs/      # Conda environments folder (if you keep environments in a specific folder)
+*.conda          # Conda environment-specific files
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore other common IDE files
+.vscode/         # Visual Studio Code
+.idea/           # JetBrains/IntelliJ/PyCharm
+
+# Ignore system files
+.DS_Store        # For macOS
+Thumbs.db        # For Windows
+
+*.DS_Store
